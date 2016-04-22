@@ -20,10 +20,11 @@ html, body {
 }
 
 body {
-	background-image: url('../images/concrete_seamless.png');
+	background-image: url('../images/confectionary.png');
 }
 
 /** Typography **/
+
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -33,25 +34,48 @@ h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h2 {
+	font-size: 35px;
+}
+
+p {
+	margin: 10px 0 10px 0;
+	line-height: 35px;
+}
+
+.center {
+	text-align: center;
+}
+
 nav h2 {
 	display: inline-block;
-	padding: 15px;
+	padding: 10px;
 	background-color: #4aaaa5;
 	margin: 0;
 	color: white;
 }
 
-header h2, h4 {
+header h2 {
+	color: #4aaaa5;
+	margin: 13px 0 17px 0;
+}
+
+header h4 {
 	color: #4aaaa5;
 	margin-top: 0;
 	margin-bottom: 13px;
 }
 
 /** Navbar **/
+
 nav {
 	background-color: #ffffff;
-	padding-top: 15px;
+	padding-top: 0;
 	border-bottom: 2px solid #cccccc;
+}
+
+span {
+	color: #EAEAEA;
 }
 
 .container {
@@ -61,12 +85,85 @@ nav {
 }
 
 .links {
-	margin-top: 10px;
+	margin-top: 20px;
 	float: right;
+}
+
+.right {
+	color: #777777;
+	padding: 15px 0 15px 15px;
+	text-decoration: none;
 }
 
 .link {
   color: #777777;
-  padding: 15px 10px 15px 30px;
+  padding: 15px;
   text-decoration: none;
+}
+a:hover {
+	color: #4aaaa5;
+}
+
+/** General **/
+
+.line {
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.line-dark {
+	border-bottom: 2px solid #cccccc;
+}
+
+.about {
+  margin: 35px 20px 35px 0;
+  padding: 15px;
+  background-color: white;
+  float: left;
+  display: block;
+  width: 620px;
+  margin-right: 0;
+}
+
+.about img {
+	float: left;
+	margin: 20px 10px 10px 0;
+}
+
+.connect {
+  margin: 35px 0 20px 20px;
+  padding: 15px;
+  background-color: white;
+  float: right;
+  display: block;
+  width: 240px;
+  text-align: center;
+}
+
+.connect ul {
+	margin: 15px 0 15px 0;
+  padding: 0;
+}
+
+.connect li {
+  margin: 0 4px 0 4px;
+  display: inline;
+}
+
+.connect img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+	clear: both;
+  border-top: 4px solid #49AAA5;
+  height: 65px;
+  background-color: #666666;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #EEEEEE;
+  margin-top: 0;
+  padding-top: 15px;
 }
