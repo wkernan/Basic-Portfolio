@@ -207,3 +207,28 @@ button {
 	width: 95px;
 	height: 35px;
 }
+
+/** Portfolio Page **/
+
+.portfolio {
+  margin: 35px 20px 35px 0;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  float: left;
+  display: block;
+  width: 590px;
+  margin-right: 0;
+}
+
+.row {
+	width: 100%;
+}
+
+.tnail {
+	margin: 30px 0 15px 0;
+	float: left;
+}
+
+.rightnail {
+	margin-right: 30px;
+}
