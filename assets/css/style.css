@@ -56,11 +56,14 @@ nav h2 {
 }
 
 header h2 {
+	font-weight: bold;
 	color: #4aaaa5;
 	margin: 13px 0 17px 0;
 }
 
 header h4 {
+	font-size: 18px;
+	font-weight: bold;
 	color: #4aaaa5;
 	margin-top: 0;
 	margin-bottom: 13px;
@@ -104,6 +107,10 @@ a:hover {
 	color: #4aaaa5;
 }
 
+.active {
+	color: #49AAA5;
+}
+
 /** General **/
 
 .line {
@@ -116,11 +123,11 @@ a:hover {
 
 .about {
   margin: 35px 20px 35px 0;
-  padding: 15px;
+  padding: 20px 30px 20px 30px;
   background-color: white;
   float: left;
   display: block;
-  width: 620px;
+  width: 590px;
   margin-right: 0;
 }
 
@@ -166,4 +173,37 @@ a:hover {
   color: #EEEEEE;
   margin-top: 0;
   padding-top: 15px;
+}
+
+/** Contact Page **/
+
+.form-group {
+	margin-top: 20px;
+}
+
+input {
+	width: 575px;
+	height: 22px;
+	margin-top: 5px;
+	padding: 6px;
+	font-size: 13px;
+}
+
+textarea {
+	border-color: #E0E0E0;
+	margin-top: 5px;
+	width: 576px;
+	height: 250px;
+	padding: 6px;
+	font-size: 13px;
+}
+
+button {
+	margin-top: 15px;
+	color: white;
+	font-size: 15px;
+	background-color: #49AAA5;
+	border: none;
+	width: 95px;
+	height: 35px;
 }
