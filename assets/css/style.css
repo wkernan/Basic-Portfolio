@@ -246,6 +246,15 @@ button {
 	height: 35px;
 }
 
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	background-color: #666666;
+	cursor: pointer;
+}
+
 /** Portfolio Page **/
 
 .portfolio {
