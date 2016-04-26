@@ -88,8 +88,13 @@ nav {
 	border-bottom: 2px solid #cccccc;
 }
 
-span {
-	color: #EAEAEA;
+.navli {
+	display: inline;
+	border-right: 2px solid #EAEAEA;
+}
+
+.navli:last-child {
+	border-right: none;
 }
 
 .main {
@@ -115,7 +120,7 @@ span {
 
 .link {
   color: #777777;
-  padding: 15px;
+  padding: 20px 15px 20px 15px;
   text-decoration: none;
 }
 a:hover {
