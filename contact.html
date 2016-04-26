@@ -6,6 +6,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="assets/images/coding.ico">
 		<link href="assets/css/reset.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -24,19 +25,21 @@
 			<div class="main container">
 				<div class="about">
 					<header class="line-dark"><h2>Contact</h2></header>
-					<form>
+					<form action="https://formspree.io/wkernan@gmail.com"
+      method="POST">
 						<div class="form-group">
 							<label>Name</label></br>
-							<input type="text" placeholder="John Smith">
+							<input type="text" placeholder="John Smith" name="name">
 						</div>
 						<div class="form-group">
 							<label>Email</label></br>
-							<input type="email" placeholder="example@gmail.com">
+							<input type="email" placeholder="example@gmail.com" name="_replyto">
+							<input type="hidden" name="_next" value="contact.html" />
 						</div>
 						<div class="form-group">
 							<label>Message</label></br>
-							<textarea></textarea>
-							<button type="submit">Submit</button>
+							<textarea type="text" name="message"></textarea>
+							<button type="submit" value="Send">Submit</button>
 						</div>
 					</form>
 				</div>

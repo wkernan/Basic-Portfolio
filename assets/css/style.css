@@ -128,6 +128,22 @@ a:hover {
 
 /** General **/
 
+.top {
+	height: 50px;
+	width: 50px;
+  position: fixed;
+  bottom: 104px;
+  right: 160px;
+  border-radius: 3px;
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 45px;
+  color: #4aaaa5;
+}
+a.top:hover {
+	color: #666666;
+}
+
 .line {
 	border-bottom: 2px solid #EAEAEA;
 }
