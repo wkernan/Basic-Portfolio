@@ -140,8 +140,38 @@ a:hover {
   font-size: 45px;
   color: #4aaaa5;
 }
+
 a.top:hover {
 	color: #666666;
+}
+
+.tooltip {
+  position: fixed;
+  display: inline-block;
+  bottom: 185px;
+  right: 235px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:focus, a:focus {
+	outline: none;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .line {
