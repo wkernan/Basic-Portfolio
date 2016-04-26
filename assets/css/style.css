@@ -199,6 +199,16 @@ a.top:hover {
 	margin: 20px 10px 10px 0;
 }
 
+.span {
+	color: #4aaaa5;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.span:hover {
+	color: #777777;
+}
+
 .connect {
 	border-radius: 3px;
   margin: 35px 0 20px 20px;
